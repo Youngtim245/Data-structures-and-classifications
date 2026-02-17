@@ -1,0 +1,75 @@
+# ======================================
+# COMPILER FILES (C PROGRAMS)
+# ======================================
+*.o
+*.out
+*.exe
+*.obj
+*.dll
+*.so
+*.a
+*.lib
+
+# Ignore compiled programs
+data_structures
+*.bin
+
+# ======================================
+# PYTHON FILES
+# ======================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# ======================================
+# VISUAL STUDIO CODE / EDITOR FILES
+# ======================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ======================================
+# ENVIRONMENT FILES
+# ======================================
+.env
+.venv/
+venv/
+ENV/
+env/
+.env.local
+.env.*.local
+
+# ======================================
+# SYSTEM / OS FILES
+# ======================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ======================================
+#  GIT / DEPLOYMENT
+# ======================================
+.gitignore
+*.zip
+*.tar
+*.gz
+*.7z
+*.bak
+
+# ======================================
+#  MISC
+# ======================================
+*.tmp
+*.log
+*.bak
+*.old
